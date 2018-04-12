@@ -53,7 +53,7 @@ var MarkerManager = (function () {
             position: { lat: marker.latitude, lng: marker.longitude },
             label: marker.label,
             draggable: marker.draggable,
-            icon: marker.iconUrl,
+            icon: marker.icon,
             opacity: marker.opacity,
             visible: marker.visible,
             zIndex: marker.zIndex,
