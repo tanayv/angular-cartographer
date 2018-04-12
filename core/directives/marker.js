@@ -119,7 +119,7 @@ var AgmMarker = (function () {
         if (changes['draggable']) {
             this._markerManager.updateDraggable(this);
         }
-        if (changes['iconUrl']) {
+        if (changes['icon']) {
             this._markerManager.updateIcon(this);
         }
         if (changes['opacity']) {
@@ -188,7 +188,7 @@ AgmMarker.propDecorators = {
     'title': [{ type: Input },],
     'label': [{ type: Input },],
     'draggable': [{ type: Input, args: ['markerDraggable',] },],
-    'iconUrl': [{ type: Input },],
+    'icon': [{ type: Input },],
     'visible': [{ type: Input },],
     'openInfoWindow': [{ type: Input },],
     'opacity': [{ type: Input },],
