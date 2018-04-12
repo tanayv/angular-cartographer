@@ -1,0 +1,23 @@
+{
+  "name": "angular-cartographer",
+  "version": "1.0.0",
+  "description": "Extension to Angular Maps to support complex icons and other explorations ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanayv/angular-cartographer.git"
+  },
+  "keywords": [
+    "angular",
+    "google-maps"
+  ],
+  "author": "Tanay Vardhan <tvardha2@illinois.edu> (http://tanay.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanayv/angular-cartographer/issues"
+  },
+  "homepage": "https://github.com/tanayv/angular-cartographer#readme"
+}
