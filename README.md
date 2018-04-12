@@ -64,8 +64,10 @@ export class AppModule { }
       origin: {x: 0, y: 0},
       scaledSize: {height: 80, width: 80},
       size: {height: 80, width: 80},
-      url:'.//angular.png'
+      url:'../../assets/angular.png'
     };
+    lat: number = 32.884735;
+    lng: number = -97.71907;
     ```
 
     **map.component.html**
