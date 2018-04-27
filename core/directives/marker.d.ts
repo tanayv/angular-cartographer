@@ -2,7 +2,7 @@ import { EventEmitter, OnChanges, OnDestroy, SimpleChange, AfterContentInit, Que
 import { MouseEvent } from '../map-types';
 import { MarkerManager } from '../services/managers/marker-manager';
 import { AgmInfoWindow } from './info-window';
-import { Icon } from '../services/google-maps-types';
+import { MarkerIcon } from '../services/google-maps-types';
 /**
  * AgmMarker renders a map marker inside a {@link AgmMap}.
  *
@@ -31,7 +31,7 @@ export declare class AgmMarker implements OnDestroy, OnChanges, AfterContentInit
     /**
      * The latitude position of the marker.
      */
-    latitude: Icon;
+    latitude: number;
     /**
      * The longitude position of the marker.
      */
@@ -51,7 +51,7 @@ export declare class AgmMarker implements OnDestroy, OnChanges, AfterContentInit
     /**
      * Icon (the URL of the image) for the foreground.
      */
-    icon: Icon | string;
+    icon: MarkerIcon | string;
     /**
      * If true, the marker is visible
      */
